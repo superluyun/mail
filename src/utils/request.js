@@ -2,7 +2,7 @@ import Vue from 'vue'
 import axios from 'axios'
 import store from '../store'
 
-Vue.use(axios)
+// Vue.use(axios) // error:Cannot read property 'protocol' of undefined
 
 //创建axios实例
 const service = axios.create({
